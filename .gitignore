@@ -1,5 +1,5 @@
-ToDoList\*
-!ToDoList\ToDoList
+/ToDoList/*
+!ToDoList/ToDoList
 
-ToDoList\ToDoList\*
-!ToDoList\ToDoList\*.cs
+ToDoList/ToDoList/*
+!ToDoList/ToDoList/*.cs
