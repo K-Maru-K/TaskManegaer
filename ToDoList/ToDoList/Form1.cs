@@ -22,7 +22,7 @@ namespace ToDoList
         {
             try
             {
-                string readList = File.ReadAllText(@"C:\Users\sens\Desktop\List.txt");
+                string readList = File.ReadAllText(UserSetting.ListFullNamePass);
                 string[] ToDoList = readList.Split('\t');
                 int ListNum = ToDoList.Length;
 
@@ -53,7 +53,7 @@ namespace ToDoList
         private void Form1_Closed(object sender, EventArgs e)
         {
             String list = ToDo1.Text + "\t" + ToDo2.Text + "\t" + ToDo3.Text;
-            File.WriteAllText(@"C:\Users\sens\Desktop\List.txt", list);
+            File.WriteAllText(UserSetting.ListFullNamePass, list);
         }
 
     }

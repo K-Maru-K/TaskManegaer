@@ -3,3 +3,5 @@
 
 ToDoList/ToDoList/*
 !ToDoList/ToDoList/*.cs
+
+ToDoList/ToDoList/UserSetting.cs
